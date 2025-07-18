@@ -70,17 +70,16 @@ A retail chain wants to improve:
 ---
 
 ## 📊 Skills Demonstrated
+### ✅ ETL Pipeline
+- Data cleaning (handling missing, duplicates)
+- Transformation (encoding, normalization)
+- Loading structured data into the warehouse
 
 ### ✅ Data Warehousing
 - Data modeling using **star schema**
 - Building **fact** and **dimension** tables
 - Designing **ER diagrams**
 - OLAP operations (Slice, Dice, Drill-down)
-
-### ✅ ETL Pipeline
-- Data cleaning (handling missing, duplicates)
-- Transformation (encoding, normalization)
-- Loading structured data into the warehouse
 
 ### ✅ Data Mining & Intelligence
 - **Association Rule Mining** (Apriori, Support, Confidence, Lift)
@@ -94,7 +93,7 @@ A retail chain wants to improve:
 - Interactive filters, drill-down charts, heatmaps
 - Time series visualization
 - Dashboards for Marketing, Sales, Inventory, and Customer Insight
-
+##### Collaborative Project Planning
 ---
 
 ## 📈 Key Features in Tableau Dashboard
@@ -152,4 +151,10 @@ All datasets are synthetic or anonymized for academic purposes. This project is 
 ---
 
 > Built for demonstrating full-cycle skills in **Data Engineering**, **Data Mining**, and **Business Intelligence**.
-```
+> ## the expected stpes and  Ouput
+> Raw Data → ETL Process (Python, SQL, etc.) → Data Warehouse (PostgreSQL, Snowflake, etc.)
+          → Data Mining (Python) → Export Results
+              ↘                             ↙
+            Tableau BI Dashboard ← Cleaned CSV or Hyper File
+Warehouse → Python (Mining/Preprocessing) → Export → Tableau (.csv/.hyper)
+
