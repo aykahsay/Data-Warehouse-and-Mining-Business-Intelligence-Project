@@ -5,7 +5,20 @@
 This project is a comprehensive real-world simulation of a **Retail Business Intelligence System**, integrating **Data Warehousing**, **Data Mining**, and **Visual Analytics** using **Tableau**. It demonstrates the complete data pipeline from raw transactional data to actionable insights for decision-makers.
 
 ---
+## ✅ Project Stages
 
+| Step | Description | Tools |
+|------|-------------|-------|
+| 1. Data Collection | Import raw data (CSV, API) | Python / Web |
+| 2. Data Cleaning | Handle nulls, outliers, formats | pandas |
+| 3. Data Loading | Load into PostgreSQL/Snowflake | SQLAlchemy / pgAdmin |
+| 4. Mining & Analysis | Clustering, Association Rules, Insights | scikit-learn, mlxtend |
+| 5. Export Clean Data | For BI consumption | `.csv` / `.hyper` |
+| 6. BI Dashboard | Build interactive Tableau dashboard | Tableau |
+| 7. Documentation | Prepare project wiki/readme | Markdown |
+| 8. Collaboration | Assign tasks, track progress | GitHub Projects |
+
+---
 ## 📂 Project Structure
 
 ```
@@ -150,8 +163,9 @@ All datasets are synthetic or anonymized for academic purposes. This project is 
 
 ---
 
-> Built for demonstrating full-cycle skills in **Data Engineering**, **Data Mining**, and **Business Intelligence**.
-> ## the expected stpes and  Ouput
+Built for demonstrating full-cycle skills in **Data Engineering**, **Data Mining**, and **Business Intelligence**
+
+## the expected stpes and  Ouput
 > Raw Data → ETL Process (Python, SQL, etc.) → Data Warehouse (PostgreSQL, Snowflake, etc.)
           → Data Mining (Python) → Export Results
               ↘                             ↙
