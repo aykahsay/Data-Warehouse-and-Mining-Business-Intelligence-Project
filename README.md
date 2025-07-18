@@ -165,7 +165,7 @@ All datasets are synthetic or anonymized for academic purposes. This project is 
 
 Built for demonstrating full-cycle skills in **Data Engineering**, **Data Mining**, and **Business Intelligence**
 
-## the expected stpes and  Ouput
+## The expected stpes and  Ouput
  Raw Data → ETL Process (Python, SQL, etc.) → Data Warehouse (PostgreSQL, Snowflake, etc.) → Data Mining (Python) → Export Results
               ↘                             ↙
             Tableau BI Dashboard ← Cleaned CSV or Hyper File
